@@ -6,18 +6,29 @@
     <description>Recent content in cp on CP site Official</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2020 13:57:48 +0600</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2020 14:21:26 +0800</lastBuildDate>
     
 	<atom:link href="https://cpsite.github.io/tags/cp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Online Judge</title>
+      <link>https://cpsite.github.io/posts/onlinejudge/</link>
+      <pubDate>Tue, 02 Jun 2020 14:21:26 +0800</pubDate>
+      
+      <guid>https://cpsite.github.io/posts/onlinejudge/</guid>
+      <description>1.Codeforces  creator: Mike Mirzayanov :clipboard:	Tools for codeforces:
+  Codeforces Visualizer &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist:	sjsakib code-drills &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist:	Balajiganapathi Codeshows &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist:	surya1231 cfladders &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist:	srijan_de Competitive Companion(Chrome Extension) &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist: Jasperr CF-Predictor(Chrome/Firefox/Opera Extension) &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist:Wsl_F   2.	AtCoder  creator: Naohiro Takahashi , Makoto Soejima :clipboard:	Tools for atcoder:
+  kenkoooo &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist: kenkoooo Competitive Companion(Chrome Extension)&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist: Jasperr Official AtCoder(Youtube Channel)   3. Uva Online Judge  creator: Miguel Ángel Revilla :clipboard:	Tools for uva:</description>
+    </item>
+    
+    <item>
       <title>Youtube and Livestreams</title>
-      <link>https://cpsite.github.io/posts/competitiveprogramming/</link>
+      <link>https://cpsite.github.io/posts/youtubelive/</link>
       <pubDate>Mon, 01 Jun 2020 13:57:48 +0600</pubDate>
       
-      <guid>https://cpsite.github.io/posts/competitiveprogramming/</guid>
-      <description> Recent Contest Probelm solvers:    Handle Resource     RomeoFantastik Youtube   stefdasca Youtube   aaronhe07 Youtube   dvkcool Youtube    Tutorials:    Handle Resource     Errichto Youtube , Github   tmwilliamlin168 Youtube , Github   kazama460 Youtube    Livestreams:    Handle Resource     Golovanov399 Youtube   Endagorion Youtube   Um_nik Youtube   subscriber Youtube      </description>
+      <guid>https://cpsite.github.io/posts/youtubelive/</guid>
+      <description> Recent Contest Probelm solvers:    Handle Resource     RomeoFantastik Youtube   stefdasca Youtube   aaronhe07 Youtube   dvkcool Youtube    Tutorials:    Handle Resource     Errichto Youtube , Github   tmwilliamlin168 Youtube , Github   kazama460 Youtube    Livestreams:    Handle Resource     Golovanov399 Youtube   Endagorion Youtube   Um_nik Youtube   subscriber Youtube    </description>
     </item>
     
   </channel>

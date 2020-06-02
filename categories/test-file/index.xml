@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test-file on CP site Official</title>
+    <link>https://cpsite.github.io/categories/test-file/</link>
+    <description>Recent content in test-file on CP site Official</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Dec 2019 21:24:06 +0800</lastBuildDate>
+    
+	<atom:link href="https://cpsite.github.io/categories/test-file/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>test3</title>
+      <link>https://cpsite.github.io/posts/test3/</link>
+      <pubDate>Mon, 30 Dec 2019 21:24:06 +0800</pubDate>
+      
+      <guid>https://cpsite.github.io/posts/test3/</guid>
+      <description>&lt;p&gt;code syntax testing&amp;hellip;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>test2</title>
+      <link>https://cpsite.github.io/posts/test2/</link>
+      <pubDate>Mon, 31 Dec 2018 20:57:45 +0800</pubDate>
+      
+      <guid>https://cpsite.github.io/posts/test2/</guid>
+      <description>bangla writing testing&amp;hellip;
+ প্রেক্ষাপট  প্রতিবিম্ব নির্ণয় প্রকর্ষ  প্রেক্ষাপট ভালো নেই প্রকর্ষ সময়ের অপেক্ষা করছি
+ নিজেকে হারাবার ভয় (link test processs 1)</description>
+    </item>
+    
+    <item>
+      <title>test7</title>
+      <link>https://cpsite.github.io/posts/test7/</link>
+      <pubDate>Mon, 29 Oct 2018 09:30:49 +0800</pubDate>
+      
+      <guid>https://cpsite.github.io/posts/test7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test4</title>
+      <link>https://cpsite.github.io/posts/test4/</link>
+      <pubDate>Sat, 28 Apr 2018 11:08:58 +0800</pubDate>
+      
+      <guid>https://cpsite.github.io/posts/test4/</guid>
+      <description>image testing&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>test6</title>
+      <link>https://cpsite.github.io/posts/test6/</link>
+      <pubDate>Thu, 22 Feb 2018 21:19:51 +0800</pubDate>
+      
+      <guid>https://cpsite.github.io/posts/test6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test5</title>
+      <link>https://cpsite.github.io/posts/test5/</link>
+      <pubDate>Tue, 09 Jan 2018 14:00:11 +0800</pubDate>
+      
+      <guid>https://cpsite.github.io/posts/test5/</guid>
+      <description>markdown testing&amp;hellip;.
+test test 2</description>
+    </item>
+    
+    <item>
+      <title>test1</title>
+      <link>https://cpsite.github.io/posts/test1/</link>
+      <pubDate>Sun, 31 Dec 2017 23:58:15 +0800</pubDate>
+      
+      <guid>https://cpsite.github.io/posts/test1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test9</title>
+      <link>https://cpsite.github.io/posts/test9/</link>
+      <pubDate>Sat, 20 Mar 2010 22:02:47 +0800</pubDate>
+      
+      <guid>https://cpsite.github.io/posts/test9/</guid>
+      <description>doc test</description>
+    </item>
+    
+    <item>
+      <title>test8</title>
+      <link>https://cpsite.github.io/posts/test8/</link>
+      <pubDate>Thu, 07 May 2009 21:41:50 +0800</pubDate>
+      
+      <guid>https://cpsite.github.io/posts/test8/</guid>
+      <description>&lt;p&gt;ready to up 01.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
