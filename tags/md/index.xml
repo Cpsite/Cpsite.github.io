@@ -6,7 +6,7 @@
     <description>Recent content in md on CP site Official</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Dec 2019 22:00:53 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2020 13:55:47 +0600</lastBuildDate>
     
 	<atom:link href="https://cpsite.github.io/tags/md/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,10 @@
     <item>
       <title>Markdown Cheat Sheet</title>
       <link>https://cpsite.github.io/posts/markdown/</link>
-      <pubDate>Tue, 31 Dec 2019 22:00:53 +0800</pubDate>
+      <pubDate>Mon, 01 Jun 2020 13:55:47 +0600</pubDate>
       
       <guid>https://cpsite.github.io/posts/markdown/</guid>
-      <description>SHEET_01(Basics) SHEET_02(Emojis) SHEET_03(Flags) Extra: Gif Source </description>
+      <description>SHEET_01(Basics) SHEET_02(Emojis) SHEET_03(Flags) SHEET_04(Tables) SHEET_05(Codes) SHEET_06(Comments) Extra: Gif Source to embed gif into blog posts. Stackedit for Markdown Editing in Browser. Markdown Monster Desktop Application for markdown. </description>
     </item>
     
   </channel>

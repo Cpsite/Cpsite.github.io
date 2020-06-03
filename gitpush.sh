@@ -5,6 +5,9 @@ read commitMessage
 
 git commit -m "$commitMessage"
 
-git push 
+git push origin $branch
+
+echo 'Done Done Done'
+
 
 read

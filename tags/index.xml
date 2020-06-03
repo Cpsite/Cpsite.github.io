@@ -6,10 +6,19 @@
     <description>Recent content in Tags on CP site Official</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Jun 2020 14:21:26 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2020 14:21:26 +0800</lastBuildDate>
     
 	<atom:link href="https://cpsite.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>algo</title>
+      <link>https://cpsite.github.io/tags/algo/</link>
+      <pubDate>Wed, 03 Jun 2020 14:21:26 +0800</pubDate>
+      
+      <guid>https://cpsite.github.io/tags/algo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>cp</title>
@@ -30,20 +39,20 @@
     </item>
     
     <item>
-      <title>yt</title>
-      <link>https://cpsite.github.io/tags/yt/</link>
-      <pubDate>Mon, 01 Jun 2020 13:57:48 +0600</pubDate>
+      <title>md</title>
+      <link>https://cpsite.github.io/tags/md/</link>
+      <pubDate>Mon, 01 Jun 2020 13:55:47 +0600</pubDate>
       
-      <guid>https://cpsite.github.io/tags/yt/</guid>
+      <guid>https://cpsite.github.io/tags/md/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>md</title>
-      <link>https://cpsite.github.io/tags/md/</link>
-      <pubDate>Tue, 31 Dec 2019 22:00:53 +0800</pubDate>
+      <title>yt</title>
+      <link>https://cpsite.github.io/tags/yt/</link>
+      <pubDate>Sun, 31 May 2020 13:57:48 +0600</pubDate>
       
-      <guid>https://cpsite.github.io/tags/md/</guid>
+      <guid>https://cpsite.github.io/tags/yt/</guid>
       <description></description>
     </item>
     

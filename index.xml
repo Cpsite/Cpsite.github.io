@@ -6,10 +6,19 @@
     <description>Recent content on CP site Official</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Jun 2020 14:21:26 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2020 14:21:26 +0800</lastBuildDate>
     
 	<atom:link href="https://cpsite.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Binary Search</title>
+      <link>https://cpsite.github.io/posts/binarysearch/</link>
+      <pubDate>Wed, 03 Jun 2020 14:21:26 +0800</pubDate>
+      
+      <guid>https://cpsite.github.io/posts/binarysearch/</guid>
+      <description>:pushpin: CODE-LIBRARY: // author: MSA int BinarySearch(int a[],int n,int target) { int low=0, high =n-1; while(low&amp;lt;=high) { int mid=low+(high-low)/2; // best formula to ignore overflow  if(target==a[mid]) return mid; //mid element is the ans  else if(a[mid]&amp;lt;target) low=mid+1; //moving to right side  else high=mid-1; // moving to left side 	} return -1; //no value found } :pushpin: VIDEO-TUTORIALS : 1. mycodeschool 2. Errichto 3. AfterAcademy 4. Nick White :pushpin: PDF-TUTORIALS : 1.</description>
+    </item>
     
     <item>
       <title>Online Judge</title>
@@ -23,21 +32,21 @@
     </item>
     
     <item>
-      <title>Youtube and Livestreams</title>
-      <link>https://cpsite.github.io/posts/youtubelive/</link>
-      <pubDate>Mon, 01 Jun 2020 13:57:48 +0600</pubDate>
+      <title>Markdown Cheat Sheet</title>
+      <link>https://cpsite.github.io/posts/markdown/</link>
+      <pubDate>Mon, 01 Jun 2020 13:55:47 +0600</pubDate>
       
-      <guid>https://cpsite.github.io/posts/youtubelive/</guid>
-      <description> Recent Contest Probelm solvers:    Handle Resource     RomeoFantastik Youtube   stefdasca Youtube   aaronhe07 Youtube   dvkcool Youtube    Tutorials:    Handle Resource     Errichto Youtube , Github   tmwilliamlin168 Youtube , Github   kazama460 Youtube    Livestreams:    Handle Resource     Golovanov399 Youtube   Endagorion Youtube   Um_nik Youtube   subscriber Youtube    </description>
+      <guid>https://cpsite.github.io/posts/markdown/</guid>
+      <description>SHEET_01(Basics) SHEET_02(Emojis) SHEET_03(Flags) SHEET_04(Tables) SHEET_05(Codes) SHEET_06(Comments) Extra: Gif Source to embed gif into blog posts. Stackedit for Markdown Editing in Browser. Markdown Monster Desktop Application for markdown. </description>
     </item>
     
     <item>
-      <title>Markdown Cheat Sheet</title>
-      <link>https://cpsite.github.io/posts/markdown/</link>
-      <pubDate>Tue, 31 Dec 2019 22:00:53 +0800</pubDate>
+      <title>Youtube and Livestreams</title>
+      <link>https://cpsite.github.io/posts/youtubelive/</link>
+      <pubDate>Sun, 31 May 2020 13:57:48 +0600</pubDate>
       
-      <guid>https://cpsite.github.io/posts/markdown/</guid>
-      <description>SHEET_01(Basics) SHEET_02(Emojis) SHEET_03(Flags) Extra: Gif Source </description>
+      <guid>https://cpsite.github.io/posts/youtubelive/</guid>
+      <description> Recent Contest Probelm solvers:    Handle Resource     RomeoFantastik Youtube   stefdasca Youtube   aaronhe07 Youtube   dvkcool Youtube    Tutorials:    Handle Resource     Errichto Youtube , Github   tmwilliamlin168 Youtube , Github   kazama460 Youtube    Livestreams:    Handle Resource     Golovanov399 Youtube   Endagorion Youtube   Um_nik Youtube   subscriber Youtube    </description>
     </item>
     
     <item>
@@ -131,15 +140,6 @@ test test 2</description>
       
       <guid>https://cpsite.github.io/posts/test1/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>test9</title>
-      <link>https://cpsite.github.io/posts/test9/</link>
-      <pubDate>Sat, 20 Mar 2010 22:02:47 +0800</pubDate>
-      
-      <guid>https://cpsite.github.io/posts/test9/</guid>
-      <description>doc test</description>
     </item>
     
     <item>

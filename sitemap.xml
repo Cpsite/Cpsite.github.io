@@ -3,13 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://cpsite.github.io/tags/algo/</loc>
+    <lastmod>2020-06-03T14:21:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpsite.github.io/categories/algorithm/</loc>
+    <lastmod>2020-06-03T14:21:26+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cpsite.github.io/posts/</loc>
-    <lastmod>2020-06-02T14:21:26+08:00</lastmod>
+    <lastmod>2020-06-03T14:21:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpsite.github.io/posts/binarysearch/</loc>
+    <lastmod>2020-06-03T14:21:26+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cpsite.github.io/categories/</loc>
-    <lastmod>2020-06-02T14:21:26+08:00</lastmod>
+    <lastmod>2020-06-03T14:21:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpsite.github.io/</loc>
+    <lastmod>2020-06-03T14:21:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpsite.github.io/tags/</loc>
+    <lastmod>2020-06-03T14:21:26+08:00</lastmod>
   </url>
   
   <url>
@@ -19,11 +44,6 @@
   
   <url>
     <loc>https://cpsite.github.io/tags/cp/</loc>
-    <lastmod>2020-06-02T14:21:26+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cpsite.github.io/</loc>
     <lastmod>2020-06-02T14:21:26+08:00</lastmod>
   </url>
   
@@ -38,33 +58,28 @@
   </url>
   
   <url>
-    <loc>https://cpsite.github.io/tags/</loc>
-    <lastmod>2020-06-02T14:21:26+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cpsite.github.io/posts/youtubelive/</loc>
-    <lastmod>2017-11-12T23:17:50+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cpsite.github.io/tags/yt/</loc>
-    <lastmod>2017-11-12T23:17:50+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://cpsite.github.io/categories/text-format/</loc>
-    <lastmod>2019-12-31T22:00:53+08:00</lastmod>
+    <lastmod>2020-06-01T13:55:47+06:00</lastmod>
   </url>
   
   <url>
     <loc>https://cpsite.github.io/posts/markdown/</loc>
-    <lastmod>2019-12-31T22:00:53+08:00</lastmod>
+    <lastmod>2020-06-01T13:55:47+06:00</lastmod>
   </url>
   
   <url>
     <loc>https://cpsite.github.io/tags/md/</loc>
-    <lastmod>2019-12-31T22:00:53+08:00</lastmod>
+    <lastmod>2020-06-01T13:55:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpsite.github.io/posts/youtubelive/</loc>
+    <lastmod>2020-05-31T13:57:48+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpsite.github.io/tags/yt/</loc>
+    <lastmod>2020-05-31T13:57:48+06:00</lastmod>
   </url>
   
   <url>
@@ -130,11 +145,6 @@
   <url>
     <loc>https://cpsite.github.io/posts/test1/</loc>
     <lastmod>2017-12-31T23:58:15+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cpsite.github.io/posts/test9/</loc>
-    <lastmod>2010-03-20T22:02:47+08:00</lastmod>
   </url>
   
   <url>

@@ -5,35 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>
-SKILLS
+Binary Search
 </title>
 
     
 
 
   
-  <meta name="author" content="MSA" />
-  <meta name="description" content="" />
+  <meta name="author" content="Sabbir" />
+  <meta name="description" content=":pushpin: CODE-LIBRARY: // author: MSA int BinarySearch(int a[],int n,int target) { int low=0, high =n-1; while(low&amp;lt;=high) { int mid=low&#43;(high-low)/2; // best formula to ignore overflow  if(target==a[mid]) return mid; //mid element is the ans  else if(a[mid]&amp;lt;target) low=mid&#43;1; //moving to right side  else high=mid-1; // moving to left side 	} return -1; //no value found } :pushpin: VIDEO-TUTORIALS : 1. mycodeschool 2. Errichto 3. AfterAcademy 4. Nick White :pushpin: PDF-TUTORIALS : 1." />
 
 
 
 <meta name="generator" content="Hugo 0.72.0" />
 
-<link rel="canonical" href="https://cpsite.github.io/about/desc2/" />
+<link rel="canonical" href="https://cpsite.github.io/posts/binarysearch/" />
 
 
-<meta property="og:title" content="SKILLS" />
-<meta property="og:description" content="PROGRAMMING LANGUAGE SKILLS:    LANGUAGE Proficiency     C 60%   Java 35%   Python 50%   C&#43;&#43; 40%    OTHERS:    Topic Proficiency     Git 50%   Filmora 70%   Markdown 40%    " />
+<meta property="og:title" content="Binary Search" />
+<meta property="og:description" content=":pushpin: CODE-LIBRARY: // author: MSA int BinarySearch(int a[],int n,int target) { int low=0, high =n-1; while(low&lt;=high) { int mid=low&#43;(high-low)/2; // best formula to ignore overflow  if(target==a[mid]) return mid; //mid element is the ans  else if(a[mid]&lt;target) low=mid&#43;1; //moving to right side  else high=mid-1; // moving to left side 	} return -1; //no value found } :pushpin: VIDEO-TUTORIALS : 1. mycodeschool 2. Errichto 3. AfterAcademy 4. Nick White :pushpin: PDF-TUTORIALS : 1." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://cpsite.github.io/about/desc2/" />
-<meta property="article:published_time" content="2019-11-11T01:30:24+08:00" />
-<meta property="article:modified_time" content="2019-11-11T01:30:24+08:00" />
+<meta property="og:url" content="https://cpsite.github.io/posts/binarysearch/" />
+<meta property="article:published_time" content="2020-06-03T14:21:26+08:00" />
+<meta property="article:modified_time" content="2020-06-03T14:21:26+08:00" />
 
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="SKILLS"/>
-<meta name="twitter:description" content="PROGRAMMING LANGUAGE SKILLS:    LANGUAGE Proficiency     C 60%   Java 35%   Python 50%   C&#43;&#43; 40%    OTHERS:    Topic Proficiency     Git 50%   Filmora 70%   Markdown 40%    "/>
+<meta name="twitter:title" content="Binary Search"/>
+<meta name="twitter:description" content=":pushpin: CODE-LIBRARY: // author: MSA int BinarySearch(int a[],int n,int target) { int low=0, high =n-1; while(low&lt;=high) { int mid=low&#43;(high-low)/2; // best formula to ignore overflow  if(target==a[mid]) return mid; //mid element is the ans  else if(a[mid]&lt;target) low=mid&#43;1; //moving to right side  else high=mid-1; // moving to left side 	} return -1; //no value found } :pushpin: VIDEO-TUTORIALS : 1. mycodeschool 2. Errichto 3. AfterAcademy 4. Nick White :pushpin: PDF-TUTORIALS : 1."/>
 
 
 <link rel="stylesheet" href="/css/github-markdown.css" />
@@ -85,66 +85,112 @@ SKILLS
     <section class="ui top attached segment" id="dream-save-post-as-img">
       <header style="margin-top: 0 !important;">
         <h2 class="ui header">
-          SKILLS
-          <div class="sub header">@ MSA · Monday, Nov 11, 2019 · 1 minute read · Update at Nov 11, 2019</div>
+          Binary Search
+          <div class="sub header">@ Sabbir · Wednesday, Jun 3, 2020 · 1 minute read · Update at Jun 3, 2020</div>
         </h2>
       </header>
-      <article style="margin-top: 2rem;"><h4 id="programming-language-skills">PROGRAMMING LANGUAGE SKILLS:</h4>
-<table>
-<thead>
-<tr>
-<th>LANGUAGE</th>
-<th>Proficiency</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>C</strong></td>
-<td>60%</td>
-</tr>
-<tr>
-<td><strong>Java</strong></td>
-<td>35%</td>
-</tr>
-<tr>
-<td><strong>Python</strong></td>
-<td>50%</td>
-</tr>
-<tr>
-<td><strong>C++</strong></td>
-<td>40%</td>
-</tr>
-</tbody>
-</table>
-<h4 id="others">OTHERS:</h4>
-<table>
-<thead>
-<tr>
-<th>Topic</th>
-<th>Proficiency</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Git</strong></td>
-<td>50%</td>
-</tr>
-<tr>
-<td><strong>Filmora</strong></td>
-<td>70%</td>
-</tr>
-<tr>
-<td><strong>Markdown</strong></td>
-<td>40%</td>
-</tr>
-</tbody>
-</table>
+      <article style="margin-top: 2rem;"><h1 id="pushpin-code-library">📌 CODE-LIBRARY:</h1>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++">  <span style="color:#75715e">//  author:  MSA
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">BinarySearch</span>(<span style="color:#66d9ef">int</span> a[],<span style="color:#66d9ef">int</span> n,<span style="color:#66d9ef">int</span> target)
+{
+	<span style="color:#66d9ef">int</span> low<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, high <span style="color:#f92672">=</span>n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
+	<span style="color:#66d9ef">while</span>(low<span style="color:#f92672">&lt;=</span>high)
+	{
+		<span style="color:#66d9ef">int</span> mid<span style="color:#f92672">=</span>low<span style="color:#f92672">+</span>(high<span style="color:#f92672">-</span>low)<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>;  <span style="color:#75715e">// best formula to ignore overflow
+</span><span style="color:#75715e"></span>
+		<span style="color:#66d9ef">if</span>(target<span style="color:#f92672">==</span>a[mid]) <span style="color:#66d9ef">return</span> mid; <span style="color:#75715e">//mid element is the ans
+</span><span style="color:#75715e"></span>
+		<span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span>(a[mid]<span style="color:#f92672">&lt;</span>target)    low<span style="color:#f92672">=</span>mid<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>; <span style="color:#75715e">//moving to right side
+</span><span style="color:#75715e"></span>
+		<span style="color:#66d9ef">else</span>   high<span style="color:#f92672">=</span>mid<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>; <span style="color:#75715e">// moving to left side
+</span><span style="color:#75715e"></span>	}
+	<span style="color:#66d9ef">return</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;  <span style="color:#75715e">//no value found
+</span><span style="color:#75715e"></span>}
+
+</code></pre></div><h1 id="pushpin-video-tutorials-">📌 VIDEO-TUTORIALS :</h1>
+<h2 id="1-mycodeschoolhttpswwwyoutubecomplaylistlistpl2_awczgmawl3ldwlrii6yelszojgh77j">1. <a href="https://www.youtube.com/playlist?list=PL2_aWCzGMAwL3ldWlrii6YeLszojgH77j">mycodeschool</a></h2>
+<h2 id="2-errichtohttpswwwyoutubecomwatchvgu7dpghinwq">2. <a href="https://www.youtube.com/watch?v=GU7DpgHINWQ">Errichto</a></h2>
+<h2 id="3-afteracademyhttpswwwyoutubecomwatchvwwangdx2f48">3. <a href="https://www.youtube.com/watch?v=wwAnGDx2f48">AfterAcademy</a></h2>
+<h2 id="4-nick-whitehttpswwwyoutubecomwatchvqdvry3stdd4">4. <a href="https://www.youtube.com/watch?v=QdVrY3stDD4">Nick White</a></h2>
+<h1 id="pushpin-pdf-tutorials-">📌 PDF-TUTORIALS :</h1>
+<h2 id="1-binary-searchhttpsdrivegooglecomfiled0b1yhfrxtsdsyltddutzmsuv6rzaview-man_technologist-i_love_equinoxhttpscodeforcescomprofilei_love_equinox">1. <a href="https://drive.google.com/file/d/0B1yhFrxtsDsyLTdDUTZMSUV6RzA/view"><strong>Binary Search</strong></a> &raquo;&raquo;&raquo;&raquo;&raquo;👨‍💻 <a href="https://codeforces.com/profile/I_Love_Equinox">I_Love_Equinox</a></h2>
+<h1 id="pushpin-screenshot-breakdown-">📌 SCREENSHOT-BREAKDOWN :</h1>
+<h3 id="1-iterative-binary-search----method--01">1. Iterative Binary Search -  [Method -01]::</h3>
+<h4 id="source-mycodeschoolhttpswwwyoutubecomplaylistlistpl2_awczgmawl3ldwlrii6yelszojgh77j">source: <a href="https://www.youtube.com/playlist?list=PL2_aWCzGMAwL3ldWlrii6YeLszojgH77j">mycodeschool</a></h4>
+<hr>
+<pre><code>mid=(low+high)/2
+</code></pre><p><img src="https://user-images.githubusercontent.com/64752426/83613210-4c820e00-a5a5-11ea-8ae0-6d888754679f.png" alt="bin1"></p>
+<h3 id="2--iterative-binary-search----method--02">2.  Iterative Binary Search -  [Method -02]::</h3>
+<hr>
+<pre><code>mid=low+(high-low)/2
+</code></pre><h4 id="source-mycodeschoolhttpswwwyoutubecomplaylistlistpl2_awczgmawl3ldwlrii6yelszojgh77j-1">source: <a href="https://www.youtube.com/playlist?list=PL2_aWCzGMAwL3ldWlrii6YeLszojgH77j">mycodeschool</a></h4>
+<p><img src="https://user-images.githubusercontent.com/64752426/83614216-b8b14180-a5a6-11ea-811e-817f0415bd88.png" alt="bin2"></p>
+<h4 id="source-errichtohttpswwwyoutubecomwatchvgu7dpghinwq">source: <a href="https://www.youtube.com/watch?v=GU7DpgHINWQ">Errichto</a></h4>
+<p><img src="https://user-images.githubusercontent.com/64752426/83642505-be238180-a5d0-11ea-9e2e-647ee71eea92.png" alt="bin12"></p>
+<h3 id="3-iterative-vs--recursive-binary-search">3. (Iterative <em>vs</em>  Recursive) Binary Search::</h3>
+<h4 id="source-mycodeschoolhttpswwwyoutubecomplaylistlistpl2_awczgmawl3ldwlrii6yelszojgh77j-2">source: <a href="https://www.youtube.com/playlist?list=PL2_aWCzGMAwL3ldWlrii6YeLszojgH77j">mycodeschool</a></h4>
+<hr>
+<p><img src="https://user-images.githubusercontent.com/64752426/83614467-0d54bc80-a5a7-11ea-835f-0419a0b14fc9.png" alt="bin3"></p>
+<h3 id="4-first-occurrence-of-a-number-using--binary-search">4. First occurrence of a number using  Binary Search::</h3>
+<h4 id="source-mycodeschoolhttpswwwyoutubecomplaylistlistpl2_awczgmawl3ldwlrii6yelszojgh77j-3">source: <a href="https://www.youtube.com/playlist?list=PL2_aWCzGMAwL3ldWlrii6YeLszojgH77j">mycodeschool</a></h4>
+<hr>
+<pre><code>if(x==A[mid])
+{
+  result=mid;
+  high=mid-1;
+}
+</code></pre><p><img src="https://user-images.githubusercontent.com/64752426/83621338-5b21f280-a5b0-11ea-9509-ae86fae9c0aa.png" alt="bin4"></p>
+<h3 id="5-last-occurrence-of-a-number-using--binary-search">5. Last occurrence of a number using  Binary Search::</h3>
+<h4 id="source-mycodeschoolhttpswwwyoutubecomplaylistlistpl2_awczgmawl3ldwlrii6yelszojgh77j-4">source: <a href="https://www.youtube.com/playlist?list=PL2_aWCzGMAwL3ldWlrii6YeLszojgH77j">mycodeschool</a></h4>
+<hr>
+<pre><code>if(x==A[mid])
+{
+  result=mid;
+  low=mid+1;
+}
+</code></pre><p><img src="https://user-images.githubusercontent.com/64752426/83621716-dc798500-a5b0-11ea-8669-49e8c46e3ace.png" alt="bin5"></p>
+<h3 id="6-count-occurrences-of-a-number-in-a-sorted-array-using-binary-search">6. Count occurrences of a number in a sorted array using Binary Search</h3>
+<h4 id="source-mycodeschoolhttpswwwyoutubecomplaylistlistpl2_awczgmawl3ldwlrii6yelszojgh77j-5">source: <a href="https://www.youtube.com/playlist?list=PL2_aWCzGMAwL3ldWlrii6YeLszojgH77j">mycodeschool</a></h4>
+<hr>
+<pre><code>//array is sorted so at the beginning  find  the first and last element then
+(last element-first element)+1
+</code></pre><p><img src="https://user-images.githubusercontent.com/64752426/83625381-a5f23900-a5b5-11ea-8d81-b2fcc8b30a46.png" alt="2">
+<img src="https://user-images.githubusercontent.com/64752426/83625417-b4d8eb80-a5b5-11ea-907d-ca10e57eb611.png" alt="3"></p>
+<h3 id="7-rotated-sorted-array">7. Rotated Sorted Array</h3>
+<hr>
+<h4 id="source-afteracademyhttpswwwyoutubecomwatchvwwangdx2f48">source: <a href="https://www.youtube.com/watch?v=wwAnGDx2f48">AfterAcademy</a></h4>
+<p><img src="https://user-images.githubusercontent.com/64752426/83667717-a52ac880-a5f0-11ea-8c5f-e8080e18d3e0.png" alt="bin14"></p>
+<h4 id="source-nick-whitehttpswwwyoutubecomwatchvqdvry3stdd4">source: <a href="https://www.youtube.com/watch?v=QdVrY3stDD4">Nick White</a></h4>
+<p><img src="https://user-images.githubusercontent.com/64752426/83655132-d8189080-a5df-11ea-92c3-a7c85665fa5b.png" alt="bin13"></p>
+<!---
+#### source: [mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwL3ldWlrii6YeLszojgH77j)
+```
+//pivot property---- next and previous both are greater
+//duplicate element is not possible in this case
+```
+![1](https://user-images.githubusercontent.com/64752426/83633089-346cb780-a5c2-11ea-89bc-d7871b89c550.png)
+>Code:
+
+![2](https://user-images.githubusercontent.com/64752426/83633148-49e1e180-a5c2-11ea-9db0-37683ba80e73.png)
+
+-->
+<!---
+
+### 8. Search element in a circular sorted array
+#### source: [mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwL3ldWlrii6YeLszojgH77j)
+-------------------------------------------
+
+![bin10](https://user-images.githubusercontent.com/64752426/83640293-c1693e00-a5cd-11ea-9921-c9144e830879.png)
+![bin11](https://user-images.githubusercontent.com/64752426/83640215-a72f6000-a5cd-11ea-96e0-68e3473f9b92.png)
+--->
 </article>
     </section>
 
     <footer class="ui attached segment dream-tags">
       
-          <a class="ui label">No Tags</a>
+        
+          <a class="ui label" href="/tags/algo" title="algo">algo</a>
+        
       
       <div
         class="ui label"
@@ -559,7 +605,6 @@ SKILLS
 
   
   
-
 </div>
 
         </section>
