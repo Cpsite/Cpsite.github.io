@@ -3,47 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://cpsite.github.io/categories/algorithm/</loc>
-    <lastmod>2020-06-09T14:21:26+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cpsite.github.io/posts/</loc>
-    <lastmod>2020-06-09T14:21:26+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cpsite.github.io/categories/</loc>
-    <lastmod>2020-06-09T14:21:26+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cpsite.github.io/</loc>
-    <lastmod>2020-06-09T14:21:26+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cpsite.github.io/posts/cse/</loc>
-    <lastmod>2020-06-09T14:21:26+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cpsite.github.io/tags/cse103/</loc>
-    <lastmod>2020-06-09T14:21:26+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cpsite.github.io/tags/</loc>
-    <lastmod>2020-06-09T14:21:26+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://cpsite.github.io/tags/algo/</loc>
     <lastmod>2020-06-03T14:21:26+08:00</lastmod>
   </url>
   
   <url>
+    <loc>https://cpsite.github.io/categories/algorithm/</loc>
+    <lastmod>2020-06-03T14:21:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpsite.github.io/posts/</loc>
+    <lastmod>2020-06-03T14:21:26+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cpsite.github.io/posts/binarysearch/</loc>
+    <lastmod>2020-06-03T14:21:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpsite.github.io/categories/</loc>
+    <lastmod>2020-06-03T14:21:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpsite.github.io/</loc>
+    <lastmod>2020-06-03T14:21:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpsite.github.io/tags/</loc>
     <lastmod>2020-06-03T14:21:26+08:00</lastmod>
   </url>
   

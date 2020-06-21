@@ -6,29 +6,10 @@
     <description>Recent content in Archive on CP site Official</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Jun 2020 14:21:26 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2020 14:21:26 +0800</lastBuildDate>
     
 	<atom:link href="https://cpsite.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>CSE 103</title>
-      <link>https://cpsite.github.io/posts/cse/</link>
-      <pubDate>Tue, 09 Jun 2020 14:21:26 +0800</pubDate>
-      
-      <guid>https://cpsite.github.io/posts/cse/</guid>
-      <description>:pushpin: Random(must): prime number: Problem:: https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/H
- Video :: https://www.youtube.com/watch?v=r5zf-0hAaAY
- Fibonacci: Problem:: https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/Y
- Video :: https://www.youtube.com/watch?v=h6NgoxaJKDs
- sum of digit  Video :: https://www.youtube.com/watch?v=IVHExlhBhrE&amp;amp;list
- reverse  Video :: https://www.youtube.com/watch?v=NwFRZK5kj_U&amp;amp;list
- palindrome  Video :: https://www.youtube.com/watch?v=1rVaH6_L3iQ&amp;amp;list
- :pushpin: String : Problem 01:: Fall 19(amader final exam) er 1 er (a) no Ques(((must)))
-Problem 02:: https://www.youtube.com/watch?v=0lZRNEi4Lr4&amp;amp;list
- Video Topics ::1. strlen, 2. strcpy,3. strcat,4. strcmp,5. strupr() and strlwr()
- :pushpin: Pattern &amp;amp; Series : Pattern: java pdf er page no - 129,133,137,152,159,202 &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo; bakigula somoy thakle dekhba Series: java pdf er 101,103,105,106,107,111,112,113 &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo; egula korlei enough :pushpin: Array: 1.</description>
-    </item>
     
     <item>
       <title>Binary Search</title>
@@ -46,8 +27,8 @@ Problem 02:: https://www.youtube.com/watch?v=0lZRNEi4Lr4&amp;amp;list
       
       <guid>https://cpsite.github.io/posts/onlinejudge/</guid>
       <description>1.Codeforces  creator: Mike Mirzayanov :clipboard:	Tools for codeforces:
-  Codeforces Visualizer &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist:	sjsakib code-drills &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist:	Balajiganapathi Codeshows &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist:	surya1231 cfladders &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist:	srijan_de Competitive Companion(Chrome Extension) &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist: Jasperr CF-Predictor(Chrome/Firefox/Opera Extension) &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist:Wsl_F Synapse0 (Only for Bangladesh)   2.	AtCoder  creator: Naohiro Takahashi , Makoto Soejima :clipboard:	Tools for atcoder:
-  kenkoooo &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist: kenkoooo Competitive Companion(Chrome Extension)&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist: Jasperr Official AtCoder(Youtube Channel)   3. Uva Online Judge  creator: Miguel Ángel Revilla :clipboard:	Tools for uva:</description>
+  Codeforces Visualizer &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist:	sjsakib code-drills &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist:	Balajiganapathi Codeshows &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist:	surya1231 cfladders &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist:	srijan_de Competitive Companion(Chrome Extension) &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist: Jasperr CF-Predictor(Chrome/Firefox/Opera Extension) &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist:Wsl_F Synapse0 (Only for Bangladesh) Upsolve &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist:	zenolus   2.	AtCoder  creator: Naohiro Takahashi , Makoto Soejima :clipboard:	Tools for atcoder:
+  kenkoooo &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist: kenkoooo Competitive Companion(Chrome Extension)&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist: Jasperr Official AtCoder(Youtube Channel) Atcoder-scores &amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;&amp;raquo;:man_technologist: Shrimp   3.</description>
     </item>
     
     <item>
