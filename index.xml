@@ -6,10 +6,19 @@
     <description>Recent content on CP site Official</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jun 2020 14:21:26 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2020 14:21:26 +0800</lastBuildDate>
     
 	<atom:link href="https://cpsite.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>501 Days and Counting ses.</title>
+      <link>https://cpsite.github.io/posts/cse/</link>
+      <pubDate>Wed, 01 Jul 2020 14:21:26 +0800</pubDate>
+      
+      <guid>https://cpsite.github.io/posts/cse/</guid>
+      <description>গল্পটা প্রায় একই ,আমার Failure টা আরো একটু বেশি 2nd time Target ছিল বিইউপি , backup Plan ছিল AUST | বিইউপি হয় নাই , AUST এ আসলো Textile | December 2019 ,আমার লাইফের সব থেকে খারাপ সময় ছিল | ওই সময় আমি সব কিছুই হারাইসিলাম , BUP তে তো নামই আসলো না , Textile পড়ার ইচ্ছা আমার ছিল না | AUST এ যেই দুইটা subject এ পড়ার ইচ্ছা ছিল ওইগুলা আসার probability ছিল 0% |</description>
+    </item>
     
     <item>
       <title>Binary Search</title>

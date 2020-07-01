@@ -6,10 +6,19 @@
     <description>Recent content in Categories on CP site Official</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jun 2020 14:21:26 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2020 14:21:26 +0800</lastBuildDate>
     
 	<atom:link href="https://cpsite.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Random</title>
+      <link>https://cpsite.github.io/categories/random/</link>
+      <pubDate>Wed, 01 Jul 2020 14:21:26 +0800</pubDate>
+      
+      <guid>https://cpsite.github.io/categories/random/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Algorithm</title>
