@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MOOC on CP site Official</title>
+    <link>https://cpsite.github.io/categories/mooc/</link>
+    <description>Recent content in MOOC on CP site Official</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jul 2020 14:21:26 +0800</lastBuildDate>
+    
+	<atom:link href="https://cpsite.github.io/categories/mooc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction to Electronics-Coursera</title>
+      <link>https://cpsite.github.io/posts/eee1/</link>
+      <pubDate>Wed, 01 Jul 2020 14:21:26 +0800</pubDate>
+      
+      <guid>https://cpsite.github.io/posts/eee1/</guid>
+      <description> source: https://www.coursera.org/learn/electronics
+ Review of Circuit Elements: Review of Kirchhoff&amp;rsquo;s Laws:  Parallel-Voltage same, Current Different
+ </description>
+    </item>
+    
+  </channel>
+</rss>
