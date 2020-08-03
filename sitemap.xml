@@ -4,17 +4,37 @@
   
   <url>
     <loc>https://cpsite.github.io/posts/</loc>
-    <lastmod>2020-07-01T14:21:26+08:00</lastmod>
+    <lastmod>2020-08-03T14:21:26+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cpsite.github.io/categories/</loc>
-    <lastmod>2020-07-01T14:21:26+08:00</lastmod>
+    <lastmod>2020-08-03T14:21:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpsite.github.io/categories/competitive-programming/</loc>
+    <lastmod>2020-08-03T14:21:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpsite.github.io/tags/cp/</loc>
+    <lastmod>2020-08-03T14:21:26+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://cpsite.github.io/</loc>
-    <lastmod>2020-07-01T14:21:26+08:00</lastmod>
+    <lastmod>2020-08-03T14:21:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpsite.github.io/posts/starter1/</loc>
+    <lastmod>2020-08-03T14:21:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpsite.github.io/tags/</loc>
+    <lastmod>2020-08-03T14:21:26+08:00</lastmod>
   </url>
   
   <url>
@@ -33,11 +53,6 @@
   </url>
   
   <url>
-    <loc>https://cpsite.github.io/tags/</loc>
-    <lastmod>2020-07-01T14:21:26+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://cpsite.github.io/tags/algo/</loc>
     <lastmod>2020-06-03T14:21:26+08:00</lastmod>
   </url>
@@ -50,16 +65,6 @@
   <url>
     <loc>https://cpsite.github.io/posts/binarysearch/</loc>
     <lastmod>2020-06-03T14:21:26+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cpsite.github.io/categories/competitive-programming/</loc>
-    <lastmod>2020-06-02T14:21:26+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cpsite.github.io/tags/cp/</loc>
-    <lastmod>2020-06-02T14:21:26+08:00</lastmod>
   </url>
   
   <url>

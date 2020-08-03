@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+Starter 1 Unofficial Editorial
+</title>
+
+    
+
+
+  
+  <meta name="author" content="Sabbir" />
+  <meta name="description" content=":pushpin: Problem A:   printing format : (int)(string)(int) &amp;mdash; Numerator/Denominator
+    Numerator= (6-maximum point between Yakko &amp;amp; Wakko&#43;1)/gcd of 6 and (6-maximum point between Yakko &amp;amp; Wakko&#43;1)
+    Denominator= 6/gcd of 6 and (6-maximum point between Yakko &amp;amp; Wakko&#43;1)
+  Code in C&#43;&#43;//MSA  #include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;using namespace std; int main() { ios_base::sync_with_stdio(0); cin.tie(0); int Y,W; cin&amp;gt;&amp;gt;Y&amp;gt;&amp;gt;W; int n1,n2,rem,k; k = 6 - max(Y, W) &#43; 1; n1=k; n2=6; while(n2!" />
+
+
+
+<meta name="generator" content="Hugo 0.72.0" />
+
+<link rel="canonical" href="https://cpsite.github.io/posts/starter1/" />
+
+
+<meta property="og:title" content="Starter 1 Unofficial Editorial" />
+<meta property="og:description" content=":pushpin: Problem A:   printing format : (int)(string)(int) &mdash; Numerator/Denominator
+    Numerator= (6-maximum point between Yakko &amp; Wakko&#43;1)/gcd of 6 and (6-maximum point between Yakko &amp; Wakko&#43;1)
+    Denominator= 6/gcd of 6 and (6-maximum point between Yakko &amp; Wakko&#43;1)
+  Code in C&#43;&#43;//MSA  #include&lt;bits/stdc&#43;&#43;.h&gt;using namespace std; int main() { ios_base::sync_with_stdio(0); cin.tie(0); int Y,W; cin&gt;&gt;Y&gt;&gt;W; int n1,n2,rem,k; k = 6 - max(Y, W) &#43; 1; n1=k; n2=6; while(n2!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cpsite.github.io/posts/starter1/" />
+<meta property="article:published_time" content="2020-08-03T14:21:26+08:00" />
+<meta property="article:modified_time" content="2020-08-03T14:21:26+08:00" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Starter 1 Unofficial Editorial"/>
+<meta name="twitter:description" content=":pushpin: Problem A:   printing format : (int)(string)(int) &mdash; Numerator/Denominator
+    Numerator= (6-maximum point between Yakko &amp; Wakko&#43;1)/gcd of 6 and (6-maximum point between Yakko &amp; Wakko&#43;1)
+    Denominator= 6/gcd of 6 and (6-maximum point between Yakko &amp; Wakko&#43;1)
+  Code in C&#43;&#43;//MSA  #include&lt;bits/stdc&#43;&#43;.h&gt;using namespace std; int main() { ios_base::sync_with_stdio(0); cin.tie(0); int Y,W; cin&gt;&gt;Y&gt;&gt;W; int n1,n2,rem,k; k = 6 - max(Y, W) &#43; 1; n1=k; n2=6; while(n2!"/>
+
+
+<link rel="stylesheet" href="/css/github-markdown.css" />
+<link rel="stylesheet" href="/css/semantic.min.css" />
+<link rel="stylesheet" href="/css/site.css" />
+
+
+<style>
+  a {
+    color: seagreen !important;
+  }
+</style>
+
+
+
+<style>
+  .inverted a {
+     color: darkseagreen !important;
+  }
+</style>
+
+
+  </head>
+
+  
+  <body style="background: darkseagreen;">
+  
+    <div class="flip-container">
+      <div class="flipper">
+        <section class="front">
+          
+<nav class="ui secondary inverted menu dream-menu">
+
+  <div class="item">
+    <i class="large link bullseye icon dream-flip-toggle" title="Flip it!"></i>
+  </div>
+  <div class="item">
+    <i class="large link home icon" title="Home" onclick="window.location.href = 'https:\/\/cpsite.github.io\/'"></i>
+  </div>
+  <div class="item">
+    <i class="large link icon theme-switch" onclick="themeSwitch()"></i>
+  </div>
+</nav>
+
+          
+<div class="ui centered relaxed grid dream-grid">
+  <div class="sixteen wide mobile sixteen wide tablet twelve wide computer column markdown-body dream-single">
+
+    <section class="ui top attached segment" id="dream-save-post-as-img">
+      <header style="margin-top: 0 !important;">
+        <h2 class="ui header">
+          Starter 1 Unofficial Editorial
+          <div class="sub header">@ Sabbir · Monday, Aug 3, 2020 · 4 minute read · Update at Aug 3, 2020</div>
+        </h2>
+      </header>
+      <article style="margin-top: 2rem;"><h1 id="pushpin-problem-a">📌 Problem A:</h1>
+<blockquote>
+<blockquote>
+<p>printing  format : (int)(string)(int)  &mdash;  Numerator/Denominator</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>Numerator= (6-maximum point between Yakko &amp; Wakko+1)/gcd of 6 and (6-maximum point between Yakko &amp; Wakko+1)</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>Denominator= 6/gcd of 6 and (6-maximum point between Yakko &amp; Wakko+1)</p>
+</blockquote>
+</blockquote>
+<details><summary>
+Code in C++
+ </summary>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++"><span style="color:#75715e">//MSA
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">#include</span><span style="color:#75715e">&lt;bits/stdc++.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+
+
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+{
+    ios_base<span style="color:#f92672">::</span>sync_with_stdio(<span style="color:#ae81ff">0</span>);
+    cin.tie(<span style="color:#ae81ff">0</span>);
+
+    <span style="color:#66d9ef">int</span> Y,W;
+    cin<span style="color:#f92672">&gt;&gt;</span>Y<span style="color:#f92672">&gt;&gt;</span>W;
+    <span style="color:#66d9ef">int</span> n1,n2,rem,k;
+
+   k <span style="color:#f92672">=</span> <span style="color:#ae81ff">6</span> <span style="color:#f92672">-</span> max(Y, W) <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>;
+   n1<span style="color:#f92672">=</span>k;
+   n2<span style="color:#f92672">=</span><span style="color:#ae81ff">6</span>;
+   <span style="color:#66d9ef">while</span>(n2<span style="color:#f92672">!=</span><span style="color:#ae81ff">0</span>)
+   {
+       rem<span style="color:#f92672">=</span>n1<span style="color:#f92672">%</span>n2;
+       n1<span style="color:#f92672">=</span>n2;
+       n2<span style="color:#f92672">=</span>rem;
+   }
+   cout<span style="color:#f92672">&lt;&lt;</span>k<span style="color:#f92672">/</span>n1<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;/&#34;</span><span style="color:#f92672">&lt;&lt;</span><span style="color:#ae81ff">6</span><span style="color:#f92672">/</span>n1<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+
+    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+
+}
+
+
+</code></pre></div> </details>
+<h1 id="pushpin-problem-b">📌 Problem B:</h1>
+<blockquote>
+<blockquote>
+</blockquote>
+</blockquote>
+<details><summary>
+Code in C++
+ </summary>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++"><span style="color:#75715e">//MSA
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">#include</span><span style="color:#75715e">&lt;bits/stdc++.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+{
+    <span style="color:#66d9ef">int</span> temp <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>,sz;
+    <span style="color:#66d9ef">char</span> ch[<span style="color:#ae81ff">10000</span>];
+    <span style="color:#66d9ef">while</span>(gets(ch)){
+
+        sz<span style="color:#f92672">=</span>strlen(ch);
+        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;i<span style="color:#f92672">&lt;</span>sz;i<span style="color:#f92672">++</span>){
+            <span style="color:#66d9ef">if</span>(ch[i]<span style="color:#f92672">==</span><span style="color:#e6db74">&#39;&#34;&#39;</span>){
+                temp<span style="color:#f92672">++</span>;
+                <span style="color:#66d9ef">if</span>(temp<span style="color:#f92672">%</span><span style="color:#ae81ff">2</span><span style="color:#f92672">!=</span><span style="color:#ae81ff">0</span>)
+                cout<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;``&#34;</span>;
+                <span style="color:#66d9ef">else</span>
+                cout<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;&#39;&#39;&#34;</span>;
+            }
+            <span style="color:#66d9ef">else</span>
+            {
+               cout<span style="color:#f92672">&lt;&lt;</span>ch[i];
+            }
+        }
+        cout<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+        }
+            <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+
+ }
+
+
+</code></pre></div> </details>
+<h1 id="pushpin-problem-c">📌 Problem C:</h1>
+<blockquote>
+<blockquote>
+<p>(X == N || Y == M)&raquo;&raquo;&raquo;&raquo;&raquo;&raquo; divisa</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>1st Quadrant &raquo;&raquo;&raquo;&raquo;&gt;  NE: (X&gt; N &amp;&amp; Y&gt; M)  (+; +)</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>2nd Quadrant &raquo;&raquo;&raquo;&raquo;&gt;  NO: (X &lt;N &amp;&amp; Y&gt; M)  (-; +)</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>3rd Quadrant &raquo;&raquo;&raquo;&raquo;&gt;  SO: (X &lt;N &amp;&amp; Y &lt;M)  (-; -)</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>4th Quadrant &raquo;&raquo;&raquo;&raquo;&gt;  SE: (X&gt; N &amp;&amp; Y &lt;M)  (+; -)</p>
+</blockquote>
+</blockquote>
+<details><summary>
+Code in C++
+ </summary>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++"><span style="color:#75715e">//MSA
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;bits/stdc++.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span> ()
+{
+   ios_base<span style="color:#f92672">::</span>sync_with_stdio(<span style="color:#ae81ff">0</span>);
+    cin.tie(<span style="color:#ae81ff">0</span>);
+
+    <span style="color:#66d9ef">int</span> k;
+    <span style="color:#66d9ef">while</span> (cin <span style="color:#f92672">&gt;&gt;</span> k)
+    {
+        <span style="color:#66d9ef">if</span> (k <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>)
+            <span style="color:#66d9ef">break</span>;
+
+        <span style="color:#66d9ef">int</span> N, M, X, Y;
+        cin <span style="color:#f92672">&gt;&gt;</span> N <span style="color:#f92672">&gt;&gt;</span> M;
+        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> k; i <span style="color:#f92672">++</span>)
+        {
+            cin <span style="color:#f92672">&gt;&gt;</span> X <span style="color:#f92672">&gt;&gt;</span> Y;
+
+            <span style="color:#66d9ef">if</span> (X <span style="color:#f92672">==</span> N <span style="color:#f92672">||</span> Y <span style="color:#f92672">==</span> M)
+                cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;divisa</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+            <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (X <span style="color:#f92672">&lt;</span>N <span style="color:#f92672">&amp;&amp;</span> Y<span style="color:#f92672">&gt;</span> M)
+                cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;NO</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+            <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (X<span style="color:#f92672">&gt;</span> N <span style="color:#f92672">&amp;&amp;</span> Y<span style="color:#f92672">&gt;</span> M)
+                cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;NE</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+            <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (X<span style="color:#f92672">&gt;</span> N <span style="color:#f92672">&amp;&amp;</span> Y <span style="color:#f92672">&lt;</span>M)
+                cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;SE</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+            <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (X <span style="color:#f92672">&lt;</span>N <span style="color:#f92672">&amp;&amp;</span> Y <span style="color:#f92672">&lt;</span>M)
+                cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;SO</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+        }
+    }
+    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+}
+
+
+</code></pre></div> </details>
+<h1 id="pushpin-problem-d">📌 Problem D:</h1>
+<blockquote>
+<blockquote>
+<p>we will only count the postive dust units , reason is given in the last line of the problem statement</p>
+</blockquote>
+</blockquote>
+<details><summary>
+Code in C++
+ </summary>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++"><span style="color:#75715e">//MSA
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">#include</span><span style="color:#75715e">&lt;bits/stdc++.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+{
+
+    <span style="color:#66d9ef">int</span> t;
+    cin<span style="color:#f92672">&gt;&gt;</span>t;
+    <span style="color:#66d9ef">int</span> casenumber<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
+    <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;i<span style="color:#f92672">&lt;=</span>t;i<span style="color:#f92672">++</span>)
+    {
+       <span style="color:#66d9ef">int</span> a,sum<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
+       cin<span style="color:#f92672">&gt;&gt;</span>a;
+       <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> j<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;j<span style="color:#f92672">&lt;=</span>a;j<span style="color:#f92672">++</span>)
+       {
+           <span style="color:#66d9ef">int</span> k;
+           cin<span style="color:#f92672">&gt;&gt;</span>k;
+           <span style="color:#66d9ef">if</span>(k<span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">0</span>){
+               sum<span style="color:#f92672">=</span>sum<span style="color:#f92672">+</span>k;
+           }
+
+       }
+       casenumber<span style="color:#f92672">=</span>casenumber<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>;
+       cout<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;Case &#34;</span><span style="color:#f92672">&lt;&lt;</span>casenumber<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;: &#34;</span><span style="color:#f92672">&lt;&lt;</span>sum<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+    }
+    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+}
+
+
+
+</code></pre></div> </details>
+<h1 id="pushpin-problem-e">📌 Problem E:</h1>
+<blockquote>
+<blockquote>
+<p>input: Hypotenuse , Adjacent ,Opposite  (random order)</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>output: using pythagorean theorem we have to check if it is a triangle or not</p>
+</blockquote>
+</blockquote>
+<details><summary>
+Code in C++
+ </summary>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++"><span style="color:#75715e">//MSA
+</span><span style="color:#75715e"></span><span style="color:#75715e">#include</span><span style="color:#75715e">&lt;bits/stdc++.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+{
+   <span style="color:#66d9ef">int</span> k,a,b,c,i;
+   cin<span style="color:#f92672">&gt;&gt;</span>k;
+
+
+   <span style="color:#66d9ef">for</span>(i<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;i<span style="color:#f92672">&lt;=</span>k;i<span style="color:#f92672">++</span>)
+   {
+       cin<span style="color:#f92672">&gt;&gt;</span>a<span style="color:#f92672">&gt;&gt;</span>b<span style="color:#f92672">&gt;&gt;</span>c;
+
+       <span style="color:#66d9ef">if</span>((a<span style="color:#f92672">*</span>a <span style="color:#f92672">+</span> b<span style="color:#f92672">*</span>b <span style="color:#f92672">==</span> c<span style="color:#f92672">*</span>c) <span style="color:#f92672">||</span> (a<span style="color:#f92672">*</span>a <span style="color:#f92672">+</span> c<span style="color:#f92672">*</span>c <span style="color:#f92672">==</span> b<span style="color:#f92672">*</span>b ) <span style="color:#f92672">||</span> (c<span style="color:#f92672">*</span>c <span style="color:#f92672">+</span> b<span style="color:#f92672">*</span>b <span style="color:#f92672">==</span> a<span style="color:#f92672">*</span>a) )
+       {
+           cout<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;Case &#34;</span><span style="color:#f92672">&lt;&lt;</span>i<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;: yes</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+
+       }
+
+       <span style="color:#66d9ef">else</span>
+       {
+           cout<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;Case &#34;</span><span style="color:#f92672">&lt;&lt;</span>i<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;: no</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+       }
+   }
+
+   <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+}
+</code></pre></div> </details>
+<h1 id="pushpin-problem-f">📌 Problem F:</h1>
+<blockquote>
+<blockquote>
+<p>if the string is equals to &ldquo;donate&rdquo; we  have to add the amount to sum  else we have to print the sum</p>
+</blockquote>
+</blockquote>
+<details><summary>
+Code in C++
+ </summary>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++"><span style="color:#75715e">//MSA
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">#include</span><span style="color:#75715e">&lt;bits/stdc++.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+{
+   <span style="color:#66d9ef">int</span> a,t,n;
+   string str;
+   <span style="color:#66d9ef">int</span> sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+   cin <span style="color:#f92672">&gt;&gt;</span> t;
+
+   <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> t; i<span style="color:#f92672">++</span>) {
+       cin <span style="color:#f92672">&gt;&gt;</span> n;
+       sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+       cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;Case &#34;</span> <span style="color:#f92672">&lt;&lt;</span> i <span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;:</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+       <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> n; i<span style="color:#f92672">++</span>) {
+           cin <span style="color:#f92672">&gt;&gt;</span> str;
+           <span style="color:#66d9ef">if</span>(str <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;donate&#34;</span>) {
+               cin <span style="color:#f92672">&gt;&gt;</span> a;
+               sum<span style="color:#f92672">=</span>sum<span style="color:#f92672">+</span> a;
+           }
+           <span style="color:#66d9ef">else</span> {
+               cout <span style="color:#f92672">&lt;&lt;</span> sum <span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+           }
+
+       }
+   }
+
+}
+
+
+</code></pre></div> </details>
+<h1 id="pushpin-problem-g">📌 Problem G:</h1>
+<blockquote>
+<blockquote>
+<p>time in seconds =abs(a-b)* 4+(3+5+3)+(a*4)+(5+3);</p>
+</blockquote>
+</blockquote>
+<details><summary>
+Code in C++
+ </summary>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++"><span style="color:#75715e">//MSA
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">#include</span><span style="color:#75715e">&lt;bits/stdc++.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+{
+    ios_base<span style="color:#f92672">::</span>sync_with_stdio(<span style="color:#ae81ff">0</span>);
+    cin.tie(<span style="color:#ae81ff">0</span>);
+
+    <span style="color:#66d9ef">int</span> t,a,b,c<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>,s,d;
+    cin<span style="color:#f92672">&gt;&gt;</span>t;
+    <span style="color:#66d9ef">while</span>(t<span style="color:#f92672">--</span>)
+    {
+        cin<span style="color:#f92672">&gt;&gt;</span>a<span style="color:#f92672">&gt;&gt;</span>b;
+        d <span style="color:#f92672">=</span> abs(a<span style="color:#f92672">-</span>b);
+        s<span style="color:#f92672">=</span>d<span style="color:#f92672">*</span><span style="color:#ae81ff">4</span><span style="color:#f92672">+</span>(<span style="color:#ae81ff">3</span><span style="color:#f92672">+</span><span style="color:#ae81ff">5</span><span style="color:#f92672">+</span><span style="color:#ae81ff">3</span>)<span style="color:#f92672">+</span>(a<span style="color:#f92672">*</span><span style="color:#ae81ff">4</span>)<span style="color:#f92672">+</span>(<span style="color:#ae81ff">5</span><span style="color:#f92672">+</span><span style="color:#ae81ff">3</span>);
+        cout<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;Case &#34;</span><span style="color:#f92672">&lt;&lt;++</span>c<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;: &#34;</span><span style="color:#f92672">&lt;&lt;</span>s<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+    }
+    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+}
+
+
+
+</code></pre></div> </details>
+<h1 id="pushpin-problem-h">📌 Problem H:</h1>
+<blockquote>
+<blockquote>
+<p>Each sonar(base=3,height=3)</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>the border cells are ignored</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>Minimum no of sonar=(row/base)*(col/height)</p>
+</blockquote>
+</blockquote>
+<details><summary>
+Code in C++
+ </summary>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++"><span style="color:#75715e">//MSA
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">#include</span><span style="color:#75715e">&lt;bits/stdc++.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+{
+    ios_base<span style="color:#f92672">::</span>sync_with_stdio(<span style="color:#ae81ff">0</span>);
+    cin.tie(<span style="color:#ae81ff">0</span>);
+
+
+    <span style="color:#66d9ef">int</span> t;
+    cin<span style="color:#f92672">&gt;&gt;</span>t;
+ <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>;i<span style="color:#f92672">&lt;=</span>t;i<span style="color:#f92672">++</span>)
+ {
+    <span style="color:#66d9ef">int</span> a,b;
+    cin<span style="color:#f92672">&gt;&gt;</span>a<span style="color:#f92672">&gt;&gt;</span>b;
+
+    cout<span style="color:#f92672">&lt;&lt;</span>(a<span style="color:#f92672">/</span><span style="color:#ae81ff">3</span>)<span style="color:#f92672">*</span>(b<span style="color:#f92672">/</span><span style="color:#ae81ff">3</span>)<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+
+ }
+    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+}
+
+
+</code></pre></div> </details>
+<h1 id="pushpin-problem-i">📌 Problem I:</h1>
+<blockquote>
+<blockquote>
+<p>taking a string as input and printing the exactly same input as output</p>
+</blockquote>
+</blockquote>
+<details><summary>
+Code in C++
+ </summary>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++"><span style="color:#75715e">//MSA
+</span><span style="color:#75715e"></span><span style="color:#75715e">#include</span><span style="color:#75715e">&lt;bits/stdc++.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+{
+   ios_base<span style="color:#f92672">::</span>sync_with_stdio(<span style="color:#ae81ff">0</span>);
+   cin.tie(<span style="color:#ae81ff">0</span>);
+
+   <span style="color:#66d9ef">char</span> str[<span style="color:#ae81ff">10</span>];
+
+   <span style="color:#66d9ef">while</span>(gets(str))
+   {
+       cout<span style="color:#f92672">&lt;&lt;</span>str<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+   }
+
+   <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+}
+
+
+</code></pre></div> </details>
+<h1 id="pushpin-problem-j">📌 Problem J:</h1>
+<blockquote>
+<blockquote>
+</blockquote>
+</blockquote>
+<details><summary>
+Code in C++
+ </summary>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++"><span style="color:#75715e">//MSA
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">#include</span><span style="color:#75715e">&lt;bits/stdc++.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+{
+
+
+    <span style="color:#66d9ef">int</span> arr[<span style="color:#ae81ff">1000</span>],sz;
+    <span style="color:#66d9ef">int</span> person,budget,hotel,weeks,bed,price,cost;
+
+    <span style="color:#66d9ef">while</span>(cin<span style="color:#f92672">&gt;&gt;</span>person<span style="color:#f92672">&gt;&gt;</span>budget<span style="color:#f92672">&gt;&gt;</span>hotel<span style="color:#f92672">&gt;&gt;</span>weeks)
+    {
+        sz<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
+        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>; i<span style="color:#f92672">&lt;=</span>hotel; i<span style="color:#f92672">++</span>)
+        {
+            cin<span style="color:#f92672">&gt;&gt;</span>price;
+            <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> j<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>; j<span style="color:#f92672">&lt;=</span>weeks; j<span style="color:#f92672">++</span>)
+            {
+                cin<span style="color:#f92672">&gt;&gt;</span>bed;
+                <span style="color:#66d9ef">if</span>(bed<span style="color:#f92672">&gt;=</span>person)
+                {
+                    cost<span style="color:#f92672">=</span>person<span style="color:#f92672">*</span>price;
+                    <span style="color:#66d9ef">if</span>(cost<span style="color:#f92672">&lt;=</span>budget)
+                        arr[sz<span style="color:#f92672">++</span>]<span style="color:#f92672">=</span>cost;
+                }
+
+            }
+
+        }
+        <span style="color:#66d9ef">if</span>(sz<span style="color:#f92672">==</span><span style="color:#ae81ff">0</span>)
+        {
+           cout<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;stay home</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+        }
+        <span style="color:#66d9ef">else</span>
+        {
+            sort(arr,arr<span style="color:#f92672">+</span>sz);
+            cout<span style="color:#f92672">&lt;&lt;</span>arr[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">&lt;&lt;</span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+        }
+
+    }
+    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+}
+
+
+</code></pre></div> </details>
+</article>
+    </section>
+
+    <footer class="ui attached segment dream-tags">
+      
+        
+          <a class="ui label" href="/tags/cp" title="cp">cp</a>
+        
+      
+      <div
+        class="ui label"
+        style="float: right; background: #1b1c1d !important; cursor: pointer;"
+        onclick="savePostAsImg()">
+        <i class="save icon"></i> Save as image
+      </div>
+    </footer>
+
+    
+
+    
+
+  </div>
+  <div class="sixteen wide mobile sixteen wide tablet four wide computer column">
+    <article class="dream-header">
+  <section class="ui top attached center aligned segment">
+    <div class="ui small circular image">
+      
+        <img src="/me/f1.jpg">
+      
+    </div>
+
+    <h1 class="ui medium header">MSA&#39;s blog<div class="sub header" style="margin-top: 0.5rem;">Fake it until you make it</div>
+    </h1>
+
+    <div class="ui horizontal list">
+      
+      <a class="item" href="/posts">
+        <i class="archive icon" title="Archives"></i>
+      </a>
+      
+      <a class="item" href="/tags">
+        <i class="tags icon" title="All Tags"></i>
+      </a>
+      <a class="item" href="/categories">
+        <i class="th list icon" title="All Categories"></i>
+      </a>
+    </div>
+  </section>
+
+  
+  <section class="ui attached center aligned segment dream-tags">
+    
+      <a class="ui label" href="/tags/algo" title="algo">algo</a>
+    
+      <a class="ui label" href="/tags/cp" title="cp">cp</a>
+    
+      <a class="ui label" href="/tags/eee" title="eee">eee</a>
+    
+      <a class="ui label" href="/tags/md" title="md">md</a>
+    
+      <a class="ui label" href="/tags/oj" title="oj">oj</a>
+    
+      <a class="ui label" href="/tags/yt" title="yt">yt</a>
+    
+  </section>
+  
+
+  
+  <section class="ui attached segment dream-categories">
+    <div class="ui accordion">
+      
+        <div class="title">
+          <i class="dropdown icon"></i>
+          <a href="/categories/algorithm" class="item">algorithm</a>
+        </div>
+        <div class="content">
+          <div class="ui list">
+          
+            <div class="item">
+              <div class="content">
+                <a href="https://cpsite.github.io/posts/binarysearch/" class="item">Binary Search</a>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      
+        <div class="title">
+          <i class="dropdown icon"></i>
+          <a href="/categories/competitive-programming" class="item">competitive-programming</a>
+        </div>
+        <div class="content">
+          <div class="ui list">
+          
+            <div class="item">
+              <div class="content">
+                <a href="https://cpsite.github.io/posts/starter1/" class="item">Starter 1 Unofficial Editorial</a>
+              </div>
+            </div>
+          
+            <div class="item">
+              <div class="content">
+                <a href="https://cpsite.github.io/posts/onlinejudge/" class="item">Online Judge</a>
+              </div>
+            </div>
+          
+            <div class="item">
+              <div class="content">
+                <a href="https://cpsite.github.io/posts/youtubelive/" class="item">Youtube and Livestreams</a>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      
+        <div class="title">
+          <i class="dropdown icon"></i>
+          <a href="/categories/mooc" class="item">mooc</a>
+        </div>
+        <div class="content">
+          <div class="ui list">
+          
+            <div class="item">
+              <div class="content">
+                <a href="https://cpsite.github.io/posts/cse11/" class="item">Introduction to Electronics-Coursera</a>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      
+        <div class="title">
+          <i class="dropdown icon"></i>
+          <a href="/categories/text-format" class="item">text-format</a>
+        </div>
+        <div class="content">
+          <div class="ui list">
+          
+            <div class="item">
+              <div class="content">
+                <a href="https://cpsite.github.io/posts/markdown/" class="item">Markdown Cheat Sheet</a>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      
+    </div>
+  </section>
+  
+
+  <section class="ui attached segment header-socials">
+    <nav class="ui secondary menu dream-menu dream-socials">
+  
+    <div class="item">
+      <a href="mailto:sabbir106706@gmail.com">
+        <i class=" mail icon" title="email"></i>
+      </a>
+    </div>
+  
+
+  
+
+  
+    <div class="item">
+      <a href="https://facebook.com/sabbir.ahmed.245" target="_blank">
+        <i class=" facebook icon" title="facebook"></i>
+      </a>
+    </div>
+  
+
+  
+    <div class="item">
+      <a href="https://instagram.com/sabbir_ahmed_245" target="_blank">
+        <i class=" instagram icon" title="instagram"></i>
+      </a>
+    </div>
+  
+
+  
+    <div class="item">
+      <a href="https://www.linkedin.com/in/sabbirahmed245" target="_blank">
+        <i class=" linkedin icon" title="linkedin"></i>
+      </a>
+    </div>
+  
+
+  
+    <div class="item">
+      <a href="https://github.com/Md-Sabbir-Ahmed" target="_blank">
+        <i class=" github icon" title="github"></i>
+      </a>
+    </div>
+  
+
+
+
+  
+
+  
+</nav>
+
+  </section>
+
+  <section class="ui bottom attached center aligned segment">
+    
+      <p>© 2020 CP site Official</p>
+    
+
+  </section>
+</article>
+
+  </div>
+</div>
+
+        </section>
+        <section class="back">
+          
+<nav class="ui secondary inverted menu dream-menu">
+
+  <div class="item">
+    <i class="large link bullseye icon dream-flip-toggle" title="Flip it!"></i>
+  </div>
+  <div class="item">
+    <i class="large link home icon" title="Home" onclick="window.location.href = 'https:\/\/cpsite.github.io\/'"></i>
+  </div>
+  <div class="item">
+    <i class="large link icon theme-switch" onclick="themeSwitch()"></i>
+  </div>
+</nav>
+
+          <div class="ui centered relaxed grid dream-grid dream-back">
+  
+    <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+      <article>
+        <div class="ui top attached segment">
+          <h3 class="ui header">About Me</h3>
+        </div>
+        <div class="ui attached segment markdown-body">
+          <p>Hello there , i am Sabbir.</p>
+<p>2nd year undergraduate student at University of Asia Pacific</p>
+<p>[i will write remaining parts later , brain is not working now !]</p>
+<p>– Last Updated 01 June 2020</p>
+        </div>
+      </article>
+    </section>
+  
+    <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+      <article>
+        <div class="ui top attached segment">
+          <h3 class="ui header">SKILLS</h3>
+        </div>
+        <div class="ui attached segment markdown-body">
+          <h4 id="programming-language-skills">PROGRAMMING LANGUAGE SKILLS:</h4>
+<table>
+<thead>
+<tr>
+<th>LANGUAGE</th>
+<th>Proficiency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>C</strong></td>
+<td>60%</td>
+</tr>
+<tr>
+<td><strong>Java</strong></td>
+<td>35%</td>
+</tr>
+<tr>
+<td><strong>Python</strong></td>
+<td>50%</td>
+</tr>
+<tr>
+<td><strong>C++</strong></td>
+<td>40%</td>
+</tr>
+</tbody>
+</table>
+<h4 id="others">OTHERS:</h4>
+<table>
+<thead>
+<tr>
+<th>Topic</th>
+<th>Proficiency</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Git</strong></td>
+<td>50%</td>
+</tr>
+<tr>
+<td><strong>Filmora</strong></td>
+<td>70%</td>
+</tr>
+<tr>
+<td><strong>Markdown</strong></td>
+<td>40%</td>
+</tr>
+</tbody>
+</table>
+
+        </div>
+      </article>
+    </section>
+  
+    <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+      <article>
+        <div class="ui top attached segment">
+          <h3 class="ui header">Achievements</h3>
+        </div>
+        <div class="ui attached segment markdown-body">
+          <p>অনেক খুঁজছি , কিছুই পাই নাই , পুরা জীবনটাই বৃথা</p>
+        </div>
+      </article>
+    </section>
+  
+
+  <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article>
+      <div class="ui top attached segment">
+        <h3 class="ui header">Social Links</h3>
+      </div>
+      <div class="ui attached segment">
+        <nav class="ui secondary menu dream-menu dream-socials">
+  
+    <div class="item">
+      <a href="mailto:sabbir106706@gmail.com">
+        <i class="large mail icon" title="email"></i>
+      </a>
+    </div>
+  
+
+  
+
+  
+    <div class="item">
+      <a href="https://facebook.com/sabbir.ahmed.245" target="_blank">
+        <i class="large facebook icon" title="facebook"></i>
+      </a>
+    </div>
+  
+
+  
+    <div class="item">
+      <a href="https://instagram.com/sabbir_ahmed_245" target="_blank">
+        <i class="large instagram icon" title="instagram"></i>
+      </a>
+    </div>
+  
+
+  
+    <div class="item">
+      <a href="https://www.linkedin.com/in/sabbirahmed245" target="_blank">
+        <i class="large linkedin icon" title="linkedin"></i>
+      </a>
+    </div>
+  
+
+  
+    <div class="item">
+      <a href="https://github.com/Md-Sabbir-Ahmed" target="_blank">
+        <i class="large github icon" title="github"></i>
+      </a>
+    </div>
+  
+
+
+
+  
+
+  
+</nav>
+
+      </div>
+    </article>
+  </section>
+
+  <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    
+  </section>
+
+  
+  
+</div>
+
+        </section>
+      </div>
+    </div>
+
+    <script src="/js/jquery.min.js"></script>
+<script src="/js/semantic.min.js"></script>
+<script src="/js/imagesloaded.pkgd.min.js"></script>
+<script src="/js/masonry.pkgd.min.js"></script>
+<script src="/js/nav.js"></script>
+<script src="/js/header.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/html2canvas.min.js"></script>
+
+
+
+  </body>
+</html>
