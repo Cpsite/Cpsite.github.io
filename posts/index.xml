@@ -17,7 +17,7 @@
       <pubDate>Mon, 03 Aug 2020 14:21:26 +0800</pubDate>
       
       <guid>https://cpsite.github.io/posts/starter1/</guid>
-      <description>:pushpin: Problem A:   printing format : (int)(string)(int) &amp;mdash; Numerator/Denominator
+      <description>Starter 1 Contest Link :pushpin: Problem A:   printing format : (int)(string)(int) &amp;mdash; Numerator/Denominator
     Numerator= (6-maximum point between Yakko &amp;amp; Wakko+1)/gcd of 6 and (6-maximum point between Yakko &amp;amp; Wakko+1)
     Denominator= 6/gcd of 6 and (6-maximum point between Yakko &amp;amp; Wakko+1)
   Code in C++//MSA  #include&amp;lt;bits/stdc++.h&amp;gt;using namespace std; int main() { ios_base::sync_with_stdio(0); cin.tie(0); int Y,W; cin&amp;gt;&amp;gt;Y&amp;gt;&amp;gt;W; int n1,n2,rem,k; k = 6 - max(Y, W) + 1; n1=k; n2=6; while(n2!</description>

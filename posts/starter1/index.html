@@ -13,7 +13,7 @@ Starter 1 Unofficial Editorial
 
   
   <meta name="author" content="Sabbir" />
-  <meta name="description" content=":pushpin: Problem A:   printing format : (int)(string)(int) &amp;mdash; Numerator/Denominator
+  <meta name="description" content="Starter 1 Contest Link :pushpin: Problem A:   printing format : (int)(string)(int) &amp;mdash; Numerator/Denominator
     Numerator= (6-maximum point between Yakko &amp;amp; Wakko&#43;1)/gcd of 6 and (6-maximum point between Yakko &amp;amp; Wakko&#43;1)
     Denominator= 6/gcd of 6 and (6-maximum point between Yakko &amp;amp; Wakko&#43;1)
   Code in C&#43;&#43;//MSA  #include&amp;lt;bits/stdc&#43;&#43;.h&amp;gt;using namespace std; int main() { ios_base::sync_with_stdio(0); cin.tie(0); int Y,W; cin&amp;gt;&amp;gt;Y&amp;gt;&amp;gt;W; int n1,n2,rem,k; k = 6 - max(Y, W) &#43; 1; n1=k; n2=6; while(n2!" />
@@ -26,7 +26,7 @@ Starter 1 Unofficial Editorial
 
 
 <meta property="og:title" content="Starter 1 Unofficial Editorial" />
-<meta property="og:description" content=":pushpin: Problem A:   printing format : (int)(string)(int) &mdash; Numerator/Denominator
+<meta property="og:description" content="Starter 1 Contest Link :pushpin: Problem A:   printing format : (int)(string)(int) &mdash; Numerator/Denominator
     Numerator= (6-maximum point between Yakko &amp; Wakko&#43;1)/gcd of 6 and (6-maximum point between Yakko &amp; Wakko&#43;1)
     Denominator= 6/gcd of 6 and (6-maximum point between Yakko &amp; Wakko&#43;1)
   Code in C&#43;&#43;//MSA  #include&lt;bits/stdc&#43;&#43;.h&gt;using namespace std; int main() { ios_base::sync_with_stdio(0); cin.tie(0); int Y,W; cin&gt;&gt;Y&gt;&gt;W; int n1,n2,rem,k; k = 6 - max(Y, W) &#43; 1; n1=k; n2=6; while(n2!" />
@@ -39,7 +39,7 @@ Starter 1 Unofficial Editorial
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Starter 1 Unofficial Editorial"/>
-<meta name="twitter:description" content=":pushpin: Problem A:   printing format : (int)(string)(int) &mdash; Numerator/Denominator
+<meta name="twitter:description" content="Starter 1 Contest Link :pushpin: Problem A:   printing format : (int)(string)(int) &mdash; Numerator/Denominator
     Numerator= (6-maximum point between Yakko &amp; Wakko&#43;1)/gcd of 6 and (6-maximum point between Yakko &amp; Wakko&#43;1)
     Denominator= 6/gcd of 6 and (6-maximum point between Yakko &amp; Wakko&#43;1)
   Code in C&#43;&#43;//MSA  #include&lt;bits/stdc&#43;&#43;.h&gt;using namespace std; int main() { ios_base::sync_with_stdio(0); cin.tie(0); int Y,W; cin&gt;&gt;Y&gt;&gt;W; int n1,n2,rem,k; k = 6 - max(Y, W) &#43; 1; n1=k; n2=6; while(n2!"/>
@@ -98,7 +98,8 @@ Starter 1 Unofficial Editorial
           <div class="sub header">@ Sabbir · Monday, Aug 3, 2020 · 4 minute read · Update at Aug 3, 2020</div>
         </h2>
       </header>
-      <article style="margin-top: 2rem;"><h1 id="pushpin-problem-a">📌 Problem A:</h1>
+      <article style="margin-top: 2rem;"><h1 id="span-stylecolorredstarter-1-contest-linkhttpsvjudgenetcontest387252span"><span style="color:red"><a href="https://vjudge.net/contest/387252">Starter 1 Contest Link</a></span></h1>
+<h1 id="pushpin-problem-a">📌 Problem A:</h1>
 <blockquote>
 <blockquote>
 <p>printing  format : (int)(string)(int)  &mdash;  Numerator/Denominator</p>
@@ -152,6 +153,7 @@ Code in C++
 <h1 id="pushpin-problem-b">📌 Problem B:</h1>
 <blockquote>
 <blockquote>
+<h3 id="hinthttppipfisvow"><a href="http://p.ip.fi/sVOW">Hint</a></h3>
 </blockquote>
 </blockquote>
 <details><summary>
@@ -497,6 +499,42 @@ Code in C++
 <h1 id="pushpin-problem-j">📌 Problem J:</h1>
 <blockquote>
 <blockquote>
+<p>N= number of participants</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>B=budget</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>H=  the number of hotels</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>W=the number of week</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>p=the price for one person staying the weekend at the hotel</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>a=the number of available beds for each weekend at the hotel</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>if sz=0 that means budget is low</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>if sz is more than 0 than we have to sort the array in ascending order and print the 1st index</p>
 </blockquote>
 </blockquote>
 <details><summary>
@@ -510,23 +548,22 @@ Code in C++
 <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
 {
 
-
     <span style="color:#66d9ef">int</span> arr[<span style="color:#ae81ff">1000</span>],sz;
-    <span style="color:#66d9ef">int</span> person,budget,hotel,weeks,bed,price,cost;
+    <span style="color:#66d9ef">int</span> N,B,H,W,a,p,cost;
 
-    <span style="color:#66d9ef">while</span>(cin<span style="color:#f92672">&gt;&gt;</span>person<span style="color:#f92672">&gt;&gt;</span>budget<span style="color:#f92672">&gt;&gt;</span>hotel<span style="color:#f92672">&gt;&gt;</span>weeks)
+    <span style="color:#66d9ef">while</span>(cin<span style="color:#f92672">&gt;&gt;</span>N<span style="color:#f92672">&gt;&gt;</span>B<span style="color:#f92672">&gt;&gt;</span>H<span style="color:#f92672">&gt;&gt;</span>W)
     {
         sz<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
-        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>; i<span style="color:#f92672">&lt;=</span>hotel; i<span style="color:#f92672">++</span>)
+        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>; i<span style="color:#f92672">&lt;=</span>H; i<span style="color:#f92672">++</span>)
         {
-            cin<span style="color:#f92672">&gt;&gt;</span>price;
-            <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> j<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>; j<span style="color:#f92672">&lt;=</span>weeks; j<span style="color:#f92672">++</span>)
+           cin<span style="color:#f92672">&gt;&gt;</span>p;
+            <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> j<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>; j<span style="color:#f92672">&lt;=</span>W; j<span style="color:#f92672">++</span>)
             {
-                cin<span style="color:#f92672">&gt;&gt;</span>bed;
-                <span style="color:#66d9ef">if</span>(bed<span style="color:#f92672">&gt;=</span>person)
+               cin<span style="color:#f92672">&gt;&gt;</span>a;
+                <span style="color:#66d9ef">if</span>(a<span style="color:#f92672">&gt;=</span>N)
                 {
-                    cost<span style="color:#f92672">=</span>person<span style="color:#f92672">*</span>price;
-                    <span style="color:#66d9ef">if</span>(cost<span style="color:#f92672">&lt;=</span>budget)
+                    cost<span style="color:#f92672">=</span>N<span style="color:#f92672">*</span>p;
+                    <span style="color:#66d9ef">if</span>(cost<span style="color:#f92672">&lt;=</span>B)
                         arr[sz<span style="color:#f92672">++</span>]<span style="color:#f92672">=</span>cost;
                 }
 
